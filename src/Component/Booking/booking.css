@@ -1,0 +1,61 @@
+/* Add your CSS to style the form */
+ form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(226, 226, 176);
+    color: rgb(36, 73, 36);
+  } 
+  
+  .mb-3 {
+    margin-bottom: 5px;
+    
+  }
+
+  
+  label {
+    /* display: inline-block; */
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select {
+   
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+     box-sizing: border-box;
+  } 
+  
+  button {
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button.secondary {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  h1{
+    text-align: center;
+    padding: 10px;
+    color: rgb(36, 73, 36);
+  }

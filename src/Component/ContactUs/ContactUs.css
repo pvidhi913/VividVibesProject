@@ -1,0 +1,55 @@
+.error {
+    color: red;
+    font-size: 0.875rem; /* Optional: Adjust the font size as needed */
+    margin-top: 0.25rem; /* Optional: Adjust the top margin as needed */
+  }/*css for contact us form */
+.contact{
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+    height: auto;
+    background-color: #F2ECBE;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*media query css for smaller screens of size between 375px and 576px*/
+@media (min-width: 375px) and (max-width: 576px) {
+    .contact{
+        width: 80%;
+    }
+
+    label.form-label{
+        font-size: 20px;
+    }
+
+    button.btn.btn-primary{
+        font-size: 20px;
+    }
+}
+
+/* media query css for smaller screens between 576px and 768px */
+@media (min-width: 576px) and (max-width: 768px) {
+    .contact{
+        width: 100%;
+    }
+
+    label.form-label{
+        font-size: 30px;
+    }
+
+    button.btn.btn-primary{
+        font-size: 30px;
+    }
+
+}
+
+.con-background{
+    background-image: url('../../assets/mar-background.jpg');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 60px;
+}

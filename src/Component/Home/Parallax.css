@@ -1,0 +1,22 @@
+/* ParallaxContainer.css */
+
+.parallax-container {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .parallax-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .parallax-container p {
+    font-size: 1.5rem;
+  }
+  

@@ -1,0 +1,54 @@
+table {
+    width: 60%; /* Adjust the width of the table */
+    margin-top: 40px; /* Adjust the top margin */
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-bottom: 160px;
+    margin-right: auto;
+    
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+   background-color: #F2EDD0 ;
+  
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+
+  @media screen and (max-width: 600px) {
+    table {
+      width: 10%;
+      margin-top: 10px;
+      padding: 160px;
+      margin-left: 40px;
+    }
+  
+    th, td {
+      padding: 4px;
+    }
+    tr{
+        padding: 5px;
+       
+    }
+
+  }
+@media screen  and (max-width: 1180px){
+    
+    table{
+        width: 10%;
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+}
+.admin-background{
+  background-image: url('../../assets/mar-background.jpg');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 60px;
+}

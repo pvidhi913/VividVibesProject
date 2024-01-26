@@ -1,0 +1,86 @@
+.custom-container{
+    background-color: #F2ECBE; /* Light beige background for the form */
+  color: #9A3B3B; /* Dark red text color for the form */
+  padding: 20px;
+  /* margin: auto; */
+  width: 50%; /* Adjust the width as needed */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.heading{
+    text-align: center;
+    margin: 30px;
+}
+
+/* Style for Submit button */
+.custom-submit-button {
+    background-color: #007bff; /* Bootstrap primary button color */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .custom-submit-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Style for Update button */
+  .custom-update-button {
+    background-color: #6c757d; /* Bootstrap secondary button color */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .custom-update-button:hover {
+    background-color: #545b62; /* Darker shade on hover */
+  }
+
+/* Add this to your UsersForm.css file or create a new CSS file */
+
+.profile-picture-container {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .camera-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff; /* Background color for the camera icon */
+    border: 1px solid #ccc; /* Border color for the camera icon */
+    border-radius: 70%;
+    padding: 4px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .user-background{
+    background-image: url('../../assets/mar-background.jpg');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+  }
+  
+
+
+
+
+  

@@ -1,0 +1,128 @@
+/* Navbar Styles */
+*{
+    padding : 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container-fluid{
+    background-color: #68A683;    
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}  
+
+div{
+    width:auto;
+    height: auto;
+}
+
+/* navbar css */
+.navbar{
+    list-style: inline;
+    background-color: #363062;  
+    padding: 0;
+}
+
+/*navabar css for menu items */
+.navbar-nav{
+    color: #F2EDD0;
+    align-items: center;
+}
+
+.navbar-brand{
+  color: #F2EDD0;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.navbar-brand:hover{
+    color: #F2EDD0;
+}
+
+.navbar-collapse{
+    padding: 10px;
+}
+
+/*css for menu item links*/
+.nav-link{
+   color: #F2EDD0;
+   margin-right: 10px;
+   font-size: 18px;
+}
+
+.a.nav-link:hover.a.nav-link:hover{
+    color:#3D7363;
+}
+
+.navbar-nav .nav-link.active{
+    color: #F2EDD0;
+}
+ 
+.dropdown-menu {
+    background-color: #f7f7f7; 
+}
+  
+.btn{
+    color: #F2EDD0;
+    border: 1.5px solid #3d7373;
+    margin-right: 10px;
+}
+
+.btn:hover{
+    background: #198754;
+}
+
+/* CSS for Dropdown menu */
+.dropdown-menu {
+    columns: 2;
+    max-width: 320px; /* Adjust the maximum width as needed */
+    border-radius: 0;
+    border: none;
+    padding: 0.5em;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .dropdown-menu .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown-menu li {
+    margin-bottom: 0; 
+  }
+  
+  .dropdown-menu li a {
+    display: block;
+    color: #3d7373;
+    text-decoration: none;
+  }
+
+  div.dropdown-menu.show{
+    background-color: white;
+  }
+  
+.dropdown-menu li a {
+    display: block;
+    color: #3d7373;
+    text-decoration: none;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #f2f2f0; 
+  }
+
+  

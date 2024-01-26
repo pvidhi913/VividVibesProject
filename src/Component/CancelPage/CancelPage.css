@@ -1,0 +1,12 @@
+.cancel-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #F2ECBE; 
+    border: 1px solid #3D7363; /* Light blue border color, change as needed */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 170px;
+    margin-bottom: 170px !important;
+}

@@ -1,0 +1,178 @@
+/* common css for whole page and background image */
+.mar-background{
+    margin: 0;
+    padding: 0;
+    background-image: url('../../assets/mar-background.jpg');
+    background-size: cover;
+    background-position: center;
+  
+}
+
+/* css for heading and text of page */
+.mar-details{
+    padding: 10px;
+    text-align: center;
+}
+
+.mar-details h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    color : #3D7363;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.mar-details p{
+    font-size: 20px;
+    justify-content: center;
+    color: #3D7363;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*css for carousel*/
+.multi-item-carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    
+  }
+  
+  .multi-item-carousel .carousel-item .card {
+    flex: 0 0 25%; 
+    margin-right: 10px; 
+  }
+
+  .multi-item-carousel .carousel-item .card img {
+    max-height: 200px; 
+    max-width: 280px;
+  }
+
+  .multi-item-carousel.carousel.slide{
+    margin-left: 21px;
+    margin-right: 21px;
+  }
+
+  div .mar-d-flex{
+    padding: 20px;
+  }
+
+  /*css for card */
+  .mar.card{
+    margin: 60px;
+    color: #F2EDD0;
+    background-color: #68A683;
+    border: none;
+  }
+  
+  .mar-body.card-body{
+    width : 280px;
+  }
+
+  .mar-title.card-title.h5{
+      font-size: 28px;;
+  }
+
+  p.mar-text.card-text{
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  /*css for card carousel*/
+  .carousel-control-prev{
+    padding:0;
+    margin:-8px;
+  }
+
+  .carousel-control-next{
+    padding:0;
+    margin: -25px;
+  }
+
+  /*media queries*/
+  @media (min-width: 576px) and (max-width: 768px) {
+    .mar-details h1{
+      font-size: 50px;
+    }
+
+    .mar-details p{
+      font-size: 40px;
+    }
+
+    div .mar-d-flex{
+      margin:20px;
+    }
+    .mar.card {
+        margin: 0px; /* Adjust card margin */
+        width: 650px;
+        height: 590px;
+        margin-bottom: 30px;
+      }
+    
+      .mar-body.card-body{
+        width:600px;
+      }
+
+      img.card-img-top.mar{
+        width: 600px;
+      }
+
+      .multi-item-carousel .carousel-item .card img {
+        max-height: 250px; 
+        max-width: 700px;
+      }
+
+      p.card-text{
+        font-size: 28px;
+      }
+    
+      .mar-title.card-title.h5{
+        font-size: 40px;
+      }
+
+      p.mar-text.card-text{
+        font-size: 30px;
+      }
+  }
+
+  @media (min-width: 375px) and (max-width: 576px) {
+    div .mar.card {
+      margin: 20px; /* Adjust card margin */
+      width: 300px;
+    }
+
+    .multi-item-carousel.carousel.slide{
+      height: 1700px;
+    }
+
+    .mar-f-flex{
+      padding: 0px;
+      margin : 0px;
+    }
+
+    div.carousel-item{
+      padding: 0px;
+      margin-left: -30px;
+    }
+
+    .mar.card{
+      width: 1000px;
+      padding: 20px; 
+    }
+
+    img.card-img-top.mar{
+      width: 270px;
+    }
+
+    .carousel-inner{
+      width: 400px;
+      height: 1700px;
+    }
+  }
+
+  @media screen and (min-width:1024){
+
+  }
+
+
+  
